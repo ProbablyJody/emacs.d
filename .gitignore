@@ -8,3 +8,9 @@ projectile-bookmarks.eld
 projectile.cache
 auto-save-list
 backups
+
+#auto complete history
+ac-comphist.dat
+
+#elpa packages
+/elpa/

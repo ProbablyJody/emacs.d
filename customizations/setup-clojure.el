@@ -33,11 +33,11 @@
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 
 ;; go right to the REPL buffer when it's finished connecting
-(setq cider-repl-pop-to-buffer-on-connect t)
+(setq cider-repl-display-in-current-window t)
 
-;; When there's a cider error, show its buffer and switch to it
-(setq cider-show-error-buffer t)
-(setq cider-auto-select-error-buffer t)
+;; Don't bother with the cider error buffer
+(setq cider-show-error-buffer nil)
+(setq cider-auto-select-error-buffer nil)
 
 ;; Where to store the cider history.
 (setq cider-repl-history-file "~/.emacs.d/cider-history")
