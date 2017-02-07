@@ -1,0 +1,5 @@
+# [Ruby](ruby.rb)
+* [Zenspider's Enhanced Ruby Mode](https://github.com/zenspider/enhanced-ruby-mode)
+* [Nonsequitur's inf-ruby](https://github.com/nonsequitur/inf-ruby)
+* [Endofunky's Bundler](https://github.com/endofunky/bundler.el)
+* [Senny's rbenv](https://github.com/senny/rbenv.el)

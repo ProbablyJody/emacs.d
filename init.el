@@ -65,8 +65,14 @@
     ;; edit html tags like sexps
     tagedit
 
-    ;; git integration
-    magit))
+    ;; Git
+    magit
+
+    ;; Ruby
+    enh-ruby-mode
+;;    bundler
+    inf-ruby
+    rbenv))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -140,7 +146,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (markdown-mode markdown-preview-mode markdown-toc tagedit smex rvm rainbow-delimiters projectile paredit magit json-mode inf-ruby ido-ubiquitous git-rebase-mode git-commit-mode flymake-ruby exec-path-from-shell cyberpunk-theme company clojure-mode-extra-font-locking cider-eval-sexp-fu ac-cider))))
+    (ruby-end tagedit smex rainbow-delimiters projectile paredit json-mode ido-ubiquitous exec-path-from-shell cyberpunk-theme company clojure-mode-extra-font-locking cider-eval-sexp-fu ac-cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
