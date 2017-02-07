@@ -20,3 +20,7 @@ projectile.cache
 # Package Management
 elpa/
 network-security.data
+
+# Private Customizations
+customizations/private/**
+!customizations/private/example-private.el
