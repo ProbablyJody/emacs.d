@@ -1,16 +1,22 @@
-.smex-items
+# Autosave/Backup Files
 *~$
-places
-.recentf
-ido.last
-cider-history
-projectile-bookmarks.eld
-projectile.cache
 auto-save-list
 backups
 
-#auto complete history
+# Cached info on recent files
+places
+.recentf
 ac-comphist.dat
 
-#elpa packages
-/elpa/
+# Cached command information
+ido.last
+.smex-items
+cider-history
+
+# Project Navigation Info
+projectile-bookmarks.eld
+projectile.cache
+
+# Package Management
+elpa/
+network-security.data

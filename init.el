@@ -70,6 +70,7 @@
 
     ;; Ruby
     enh-ruby-mode
+    rspec-mode
 ;;    bundler
     inf-ruby
     rbenv))
